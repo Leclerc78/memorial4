@@ -1,0 +1,150 @@
+/* Reset CSS */
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+  color: #000;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  text-align: left;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+
+.container {
+  max-width: 1200px;
+  border-bottom: #000;
+  clear: both;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.container img{
+  padding: 10px;
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+  float: left;
+}
+.about h2,
+.luogo h2,
+.contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+.container img{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  width: 250px;
+  height: 200px;
+  
+}
+
+
+.cover {
+  background-image: url('img/linea-struttura-dell-erba-dello-stadio-del-campo-di-football-americano-di-calcio-del-fondo-della-palla-per-il-disegno-30005478.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+}
+
+.cover h1 {
+  font-size: 70px;
+  display: block;
+  box-shadow: 5px black;
+  font-family: 'Bebas Neue', sans-serif;
+
+
+  
+}
+
+.cover p {
+  font-size: 35px;
+  display: block;
+  font-family: 'Bebas Neue', sans-serif;
+
+}
+
+h5{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: green;
+  
+}
+
+.container p{
+  margin-top: 10px;
+  font-family:sans-serif;
+  font-size: 20px;
+}
